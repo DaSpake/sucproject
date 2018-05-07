@@ -1,0 +1,100 @@
+body {
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 150px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    border-top: 3px;
+}
+
+h3 {
+  margin: auto;
+}
+
+
+p {
+    color: black;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+footer {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  border-top: 2px solid #000;
+}
+
+svg {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+button {
+  height: auto;
+  width: 70px;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 20px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+#buttons {
+  margin: auto;
+}
+
+#data01 {
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 2px;
+}
+
+#data11 {
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  border-width: 2px;
+}
+
+#border01 {
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 35px;
+}
+
+#border11 {
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 35px;
+}
+
+.datalist {
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 22px;
+}
+
+.team {
+  background-color: lightgrey;
+  padding-right: 10px;
+}
